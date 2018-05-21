@@ -2,6 +2,8 @@
  custom AlertView based on table view
  
  
+ **Objective-C**
+ 
  JSAlertView *alert = [[JSAlertView alloc] initTitleWithMessages:@"" message:@[@"LargeMessage1", @"MiddleMessage2"] buttons:@[@"Cancel", @"OK"]];</p>
 
  [alert setOnButtonAction:^(JSAlertView *alertView, NSInteger index) {</p>
