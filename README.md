@@ -6,10 +6,10 @@
 
  [alert setOnButtonAction:^(JSAlertView *alertView, NSInteger index) {</p>
    if (index == 0) {</p>
-      NSLog(@"Cancel");</p>
+        NSLog(@"Cancel");</p>
     }</p>
     else {</p>
-      NSLog(@"ok");</p>
+        NSLog(@"ok");</p>
     }</p>
  }];</p>
  </p>
