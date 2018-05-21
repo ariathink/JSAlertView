@@ -24,7 +24,8 @@ let alert = JSAlertView.init(titleWithMessages: "", messages: ["LargeMessage", "
 alert?.delegate = self</p>
 alert?.show()</p>
 </p></p>
-*JSAlertViewDelegate*
+
+-JSAlertViewDelegate
 
 func didSelectButtonIndex(_ alert:JSAlertView!, index: Int) {</p>
 
