@@ -16,3 +16,16 @@
  }];</p>
  </p>
  [alert show];
+</p></p></p>
+
+
+**Swift**
+let alert = JSAlertView.init(titleWithMessages: "", messages: ["LargeMessage", "MiddleMessage"], buttons:["OK"]) </p>
+alert?.delegate = self</p>
+alert?.show()</p>
+</p></p>
+*JSAlertViewDelegate*
+
+func didSelectButtonIndex(_ alert:JSAlertView!, index: Int) {</p>
+
+}
