@@ -2,7 +2,7 @@
  custom AlertView based on table view
  
  </p></p></p>
- **|Objective-C|** </p></p>
+ **- Objective-C** </p></p>
  
  JSAlertView *alert = [[JSAlertView alloc] initTitleWithMessages:@"" message:@[@"LargeMessage1", @"MiddleMessage2"] buttons:@[@"Cancel", @"OK"]];</p>
 
@@ -19,7 +19,7 @@
 </p></p></p>
 
 
-**|Swift|** </p></p>
+**- Swift** </p></p>
 let alert = JSAlertView.init(titleWithMessages: "", messages: ["LargeMessage", "MiddleMessage"], buttons:["OK"]) </p>
 alert?.delegate = self</p>
 alert?.show()</p>
